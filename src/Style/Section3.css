@@ -1,0 +1,93 @@
+.section3 {
+    position: relative;
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+  }
+  
+  .banner-img {
+    border-radius: 15px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for better contrast */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+  }
+  
+  .section3 h1 {
+    color: #d4a5a5; /* Light purple */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .section3 p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button Styling */
+  .section3 .btn-lg {
+    padding: 0.75rem 1.5rem;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 992px) {
+    .section3 h1 {
+      font-size: 2rem;
+    }
+  
+    .section3 p {
+      font-size: 1rem;
+    }
+  
+    .section3 .btn-lg {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section3 h1 {
+      font-size: 1.75rem;
+    }
+  
+    .section3 p {
+      font-size: 0.875rem;
+    }
+  
+    .overlay-text {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .section3 .btn-lg {
+      font-size: 0.875rem;
+      padding: 0.6rem 1.2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .section3 h1 {
+      font-size: 1.5rem;
+    }
+  
+    .section3 p {
+      font-size: 0.75rem;
+    }
+  
+    .overlay-text {
+      max-width: 95%;
+    }
+  
+    .section3 .btn-lg {
+      font-size: 0.75rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  

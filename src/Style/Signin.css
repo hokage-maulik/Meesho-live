@@ -1,0 +1,95 @@
+.signin-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em; /* Adjusted for responsiveness */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em; /* Adjusted for responsiveness */
+}
+
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f6a1a1; /* Meesho's brand color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #e58080; /* Darker shade on hover */
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-text a {
+    color: #f6a1a1; /* Meesho's brand color */
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .signin-container {
+        width: 90%; /* Make the container take up more width on smaller screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.4em; /* Slightly smaller heading */
+    }
+
+    .signup-button {
+        font-size: 14px; /* Adjust button font size */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em; /* Even smaller heading for mobile */
+    }
+
+    input {
+        padding: 8px; /* Reduce input padding */
+        font-size: 0.9em; /* Adjust input font size */
+    }
+
+    .signup-button {
+        padding: 8px; /* Reduce button padding */
+        font-size: 14px; /* Adjust button font size */
+    }
+
+    .footer-text {
+        font-size: 0.9em; /* Adjust footer text size */
+    }
+}
