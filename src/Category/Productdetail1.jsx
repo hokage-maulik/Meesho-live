@@ -17,6 +17,7 @@ export default function Productdetail1() {
   async function fetchData() {
     try {
       const res = await axios.get(`https://meesho-live2.onrender.com/${id}`);
+      
       setData(res.data);
     } catch (error) {
       console.error("Error fetching product data:", error);
