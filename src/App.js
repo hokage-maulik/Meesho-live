@@ -15,6 +15,7 @@ import Qr from './Component/Qr';
 import Supplier from './Component/Supplier';
 import Newsroom from './Component/Newsroom';
 import Signin from './Firebase/Signin';
+import Login from './Firebase/Login';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path='Howtopay' element={<Payment/>}/>
         <Route path='/Qr' element={<Qr/>}/>
         <Route path='/signin' element={<Signin/>}/>
+        <Route path='/login' element={<Login/>}/>
         <Route path="/customerdetail" element={<CustomerDetail/>}/>
         <Route path='/end' element={<LastPage/>}/>
         <Route path='/supplier' element={<Supplier/>}/>

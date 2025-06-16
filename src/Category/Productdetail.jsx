@@ -22,11 +22,11 @@ export default function Productdetail() {
   function addtocart() {
     alert("Product added to your cart");
     dispatch(myAction(data));
-    navigate('/signin');
+    navigate('/cart');
   }
 
   function signin(){
-    navigate("/signin")
+    navigate("/cart")
   }
 
   

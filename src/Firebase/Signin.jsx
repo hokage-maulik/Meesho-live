@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import app from '../firebasedata';
 import  "../Style/Signin.css"
@@ -52,7 +52,8 @@ export default function Signin() {
                 onChange={(e) => setPassword(e.target.value)}
             />
             <button onClick={register} className="signup-button">Sign Up</button>
-            <p className="footer-text">Already have an account? <a href="/login">Login here</a></p>
+          
+            <Link to="/login"><p className="footer-text">Already have an account? Login here</p></Link>
         </div>
     );
 }

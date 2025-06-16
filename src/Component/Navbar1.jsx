@@ -83,7 +83,7 @@ export default function Navbar1() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/signin" className="nav-link text-dark d-flex align-items-center">
+                            <Link to="/cart" className="nav-link text-dark d-flex align-items-center">
                                 <i className="fas fa-shopping-cart me-2"></i>
                                 <h6 className="mb-0">Cart</h6>
                             </Link>
