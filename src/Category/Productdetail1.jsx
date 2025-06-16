@@ -26,7 +26,7 @@ export default function Productdetail1() {
 
   function addToCart() {
     dispatch(myAction(data));
-    navigate('/signin');
+    navigate('/cart');
   }
 
   
